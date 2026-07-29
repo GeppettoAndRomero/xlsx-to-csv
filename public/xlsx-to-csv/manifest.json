@@ -1,0 +1,36 @@
+{
+  "name": "XLSX to CSV \u2014 runlocally",
+  "short_name": "XLSX to CSV",
+  "description": "Convert each Excel workbook sheet to a UTF-8 CSV file in your browser.",
+  "start_url": "/xlsx-to-csv/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "scope": "/xlsx-to-csv/",
+  "icons": [
+    {
+      "src": "/xlsx-to-csv/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/xlsx-to-csv/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "utilities",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
